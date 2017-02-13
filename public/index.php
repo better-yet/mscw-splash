@@ -28,22 +28,22 @@ $links = array(
 					<h1>Maine Startup & Create Week</h1>
 				</div>
 			</div>
-			<div class="row keynote">
-				<div class="col-md-5 col-md-offset-2 photo">
-					<img src="/assets/img/marvin-ammori-cropped.jpg" width="1333" height="1333" class="img-responsive">
-				</div>
-				<div class="col-md-3 bio">
-					<div class="inner">
-						<small>Keynote 1</small>
-						<h3>Marvin Ammori</h3>
-						<h4>General Counsel, Hyperloop One</h4>
-						<p>Named among Politico's 50 visionaries for 2015, Fast Company's 100 Most Creative in Business in 2012, a Washingtonian Magazine "Tech Titan" in 2015, Marvin focuses on next-generation transportation law.</p>
-						<p>“I lead the legal team and serve on the senior business leadership team at Hyperloop One, a company working to make ultra-highspeed ground transportation a reality.”</p>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="keynote">
+						<img src="/assets/img/marvin-ammori-cropped.jpg" width="1333" height="1333" class="img-responsive">
+						<div class="bio">
+							<small>Keynote 1</small>
+							<h3>Marvin Ammori</h3>
+							<h4>General Counsel, Hyperloop One</h4>
+							<p>Named among Politico's 50 visionaries for 2015, Fast Company's 100 Most Creative in Business in 2012, a Washingtonian Magazine "Tech Titan" in 2015, Marvin focuses on next-generation transportation law.</p>
+							<p>“I lead the legal team and serve on the senior business leadership team at Hyperloop One, a company working to make ultra-highspeed ground transportation a reality.”</p>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row tagline">
-				<div class="col-md-offset-2 col-md-8">
+			<div class="row">
+				<div class="col-md-offset-2 col-md-8 tagline">
 					<p>Join us to move your business forward, through expert insight, applied skill-building, and meaningful connections.</p>
 				</div>
 			</div>
@@ -59,19 +59,17 @@ $links = array(
 		<nav id="utility">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8">
-						<span>June 19–23, 2017</span>
+					<div class="col-xs-6 col-sm-3 col-md-2 when">
+						June 19–23, 2017
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-2 where">
 						<span>Portland, ME</span>
 					</div>
-					<div class="col-md-4 links">
-						<a href="<?php echo $links['tickets']?>" target="_blank">Tickets</a>
-						<a href="<?php echo $links['subscribe']?>" target="_blank">Subscribe</a>
-						<div>
-							<a href="mailto:<?php echo $links['email']?>" class="email"><img src="/assets/img/icons/email.svg"></a>
-							<a href="<?php echo $links['facebook']?>" class="facebook"><img src="/assets/img/icons/facebook.svg"></a>
-							<a href="<?php echo $links['twitter']?>" class="twitter"><img src="/assets/img/icons/twitter.svg"></a>
-							<a href="<?php echo $links['youtube']?>" class="youtube"><img src="/assets/img/icons/youtube.svg"></a>
-						</div>
+					<div class="col-xs-12 col-sm-6 col-md-8 social">
+						<a href="mailto:<?php echo $links['email']?>" class="email"><img src="/assets/img/icons/email.svg"></a>
+						<a href="<?php echo $links['facebook']?>" class="facebook"><img src="/assets/img/icons/facebook.svg"></a>
+						<a href="<?php echo $links['twitter']?>" class="twitter"><img src="/assets/img/icons/twitter.svg"></a>
+						<a href="<?php echo $links['youtube']?>" class="youtube"><img src="/assets/img/icons/youtube.svg"></a>
 					</div>
 				</div>
 			</div>

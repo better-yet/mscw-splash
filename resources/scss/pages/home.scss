@@ -1,10 +1,10 @@
 .keynote {
     margin-bottom: 40px;
-    .bio .inner {
-        background-color: $color-blue;
-        color: $color-white;
+    background-color: $color-blue;
+    color: $color-white;
+    overflow: auto;
+    .bio {
         padding: 20px 10px;
-        height: 457.5px;
         small { 
             display: block;
             font-family: $font-mono;
@@ -24,4 +24,17 @@
     font-size: 24px;
     font-family: $font-bold;
     color: $color-blue;
+}
+
+@media (min-width: $screen-sm-min) {
+    .keynote {
+        img {
+            float: left;
+            width: 60%;
+        }
+        .bio {
+            width: 40%;
+            float: left;
+        }
+    }
 }
