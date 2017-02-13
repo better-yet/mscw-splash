@@ -1,10 +1,11 @@
 <?php
 $links = array(
-	'tickets' => 'http://ticketbud.com',
+	'tickets' => 'https://ticketbud.com/events/32582f4c-eb1c-11e6-999e-afbf3b0f7479/register',
 	'email' => 'info@mainestartupandcreateweek.com',
 	'facebook' => 'https://www.facebook.com/mainestartupandcreateweek',
 	'twitter' => 'https://twitter.com/MaineSCW',
 	'youtube' => 'https://www.youtube.com/channel/UCGCfv9pQb26YnABmw-ISUMQ',
+	'subscribe' => 'http://eepurl.com/Sn_TT',
 );
 ?>
 <!DOCTYPE html>
@@ -21,25 +22,6 @@ $links = array(
 		<![endif]-->
 	</head>
 	<body class="home">
-		<nav id="utility">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8">
-						June 19–23, 2017 — Portland, ME
-					</div>
-					<div class="col-md-4 links">
-						<a href="<?php echo $links['tickets']?>" target="_blank">Tickets</a>
-						<div>
-							<a href="mailto:<?php echo $links['email']?>" class="email"><img src="/assets/img/icons/email.svg"></a>
-							<a href="<?php echo $links['facebook']?>" class="facebook"><img src="/assets/img/icons/facebook.svg"></a>
-							<a href="<?php echo $links['twitter']?>" class="twitter"><img src="/assets/img/icons/twitter.svg"></a>
-							<a href="<?php echo $links['youtube']?>" class="youtube"><img src="/assets/img/icons/youtube.svg"></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</nav>
-
 		<div class="container">
 			<div class="row" id="logo">
 				<div class="col-md-12">
@@ -74,5 +56,25 @@ $links = array(
 				</div>
 			</div>
 		</div>
+		<nav id="utility">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<span>June 19–23, 2017</span>
+						<span>Portland, ME</span>
+					</div>
+					<div class="col-md-4 links">
+						<a href="<?php echo $links['tickets']?>" target="_blank">Tickets</a>
+						<a href="<?php echo $links['subscribe']?>" target="_blank">Subscribe</a>
+						<div>
+							<a href="mailto:<?php echo $links['email']?>" class="email"><img src="/assets/img/icons/email.svg"></a>
+							<a href="<?php echo $links['facebook']?>" class="facebook"><img src="/assets/img/icons/facebook.svg"></a>
+							<a href="<?php echo $links['twitter']?>" class="twitter"><img src="/assets/img/icons/twitter.svg"></a>
+							<a href="<?php echo $links['youtube']?>" class="youtube"><img src="/assets/img/icons/youtube.svg"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
 	</body>
 </html>

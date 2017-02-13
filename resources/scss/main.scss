@@ -1,5 +1,5 @@
 $color-gray:	#eaeaea;
-$color-blue:	#2e5ca2;
+$color-blue:	rgb(38, 110, 181);
 $color-green:	#3c8842;
 $color-white:	#ffffff;
 
@@ -48,6 +48,7 @@ $triangle-height: 280px;
 body {
 	background: $color-gray;
 	font-family: $font-regular;
+	padding-top: 70px;
 
 	nav#utility {
 		background-color: $color-blue;
@@ -56,15 +57,22 @@ body {
 		letter-spacing: 1px;
 		line-height: 2;
 		padding: 10px 0 6px;
-		margin: 0 0 30px;
 		text-transform: uppercase;
+		position: fixed;
+		top: 0; 
+		left: 0;
+		width: 100%; 
+		span + span { margin-left: 20px; }
 		.links {
-			div { float: right; }
 			a { 
 				color: $color-white;
-				margin-left: 8px; 
+				margin-left: 18px; 
 				&.facebook { margin-left: 13px; }
 				img { height: 20px; width: auto; }
+			}
+			div { 
+				float: right; 
+				a { margin-left: 8px; }
 			}
 		}
 	}
@@ -100,10 +108,12 @@ body {
 			border-color: transparent transparent $color-green transparent;
 			height: 0;
 			width: 0;
+			opacity: .85;
 		}
 		.text {
 			color: $color-white;
 			font-size: 18px;
+			font-family: $font-mono;
 			margin: 0 auto;
 			position: absolute;
 			text-align: center;
