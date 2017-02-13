@@ -1,7 +1,7 @@
 <?php
 $links = array(
 	'tickets' => 'https://ticketbud.com/events/32582f4c-eb1c-11e6-999e-afbf3b0f7479/register',
-	'email' => 'info@mainestartupandcreateweek.com',
+	'email' => 'mailto:info@mainestartupandcreateweek.com',
 	'facebook' => 'https://www.facebook.com/mainestartupandcreateweek',
 	'twitter' => 'https://twitter.com/MaineSCW',
 	'youtube' => 'https://www.youtube.com/channel/UCGCfv9pQb26YnABmw-ISUMQ',
@@ -66,10 +66,11 @@ $links = array(
 						<span>Portland, ME</span>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-8 social">
-						<a href="mailto:<?php echo $links['email']?>" class="email"><img src="/assets/img/icons/email.svg"></a>
-						<a href="<?php echo $links['facebook']?>" class="facebook"><img src="/assets/img/icons/facebook.svg"></a>
-						<a href="<?php echo $links['twitter']?>" class="twitter"><img src="/assets/img/icons/twitter.svg"></a>
-						<a href="<?php echo $links['youtube']?>" class="youtube"><img src="/assets/img/icons/youtube.svg"></a>
+						<a href="<?php echo $links['subscribe']?>" class="fa fa-envelope"></a>
+						<a href="<?php echo $links['facebook']?>" class="fa fa-facebook"></a>
+						<a href="<?php echo $links['twitter']?>" class="fa fa-twitter"></a>
+						<a href="<?php echo $links['youtube']?>" class="fa fa-youtube-play"></a>
+						<a href="<?php echo $links['email']?>" class="fa fa-question-circle"></a>
 					</div>
 				</div>
 			</div>

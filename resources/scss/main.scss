@@ -11,6 +11,7 @@ $triangle-width: 330px;
 $triangle-height: 280px;
 
 @import 'node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+@import 'node_modules/font-awesome/scss/font-awesome.scss';
 
 @font-face {
 	font-family: $font-bold;
@@ -66,15 +67,12 @@ body {
 		a { 
 			color: $color-white;
 		}
-		.links {
-			a {
-				margin-left: 18px; 
-				&.facebook { margin-left: 13px; }
-			}
-		}
 		.social { 
-			img { height: 20px; width: auto; }
-			a { margin-left: 8px; }
+			a { 
+				font-size: 20px;
+				margin-left: 8px; 
+				&:hover { text-decoration: none; }
+			}
 		}
 	}
 
@@ -99,13 +97,13 @@ body {
 
 	.triangle {
 		position: absolute;
-		left: -40px;
-		top: 276px;
-		width: $triangle-width;
-		height: $triangle-height;
+		left: -20px;
+		top: 280px;
+		width: $triangle-width * .8;
+		height: $triangle-height * .8;
 		.shape {
 			border-style: solid;
-			border-width: 0 $triangle-width / 2 $triangle-height;
+			border-width: 0 $triangle-width * .8 / 2 $triangle-height * .8;
 			border-color: transparent transparent $color-green transparent;
 			height: 0;
 			width: 0;
@@ -113,18 +111,18 @@ body {
 		}
 		.text {
 			color: $color-white;
-			font-size: 18px;
+			font-size: 16px;
 			font-family: $font-mono;
 			margin: 0 auto;
 			position: absolute;
 			text-align: center;
-			top: $triangle-height / 2;
+			top: $triangle-height * .8 / 2;
 			width: 100%;
 			a {
 				display: block; 
 				font-family: $font-bold;
 				color: $color-white;
-				font-size: 24px;
+				font-size: 20px;
 				margin-top: 20px;
 				text-decoration: underline;
 			}
@@ -140,7 +138,18 @@ body {
 	body {
 		padding-top: 70px;
 		.triangle {
+			left: -40px;
 			top: 350px;
+			width: $triangle-width;
+			height: $triangle-height;
+			.shape {
+				border-width: 0 $triangle-width / 2 $triangle-height;
+			}
+			.text {
+				font-size: 18px;
+				top: $triangle-height / 2;
+				a { font-size: 24px; }
+			}
 		}
 		nav#utility {
 			text-align: left;
