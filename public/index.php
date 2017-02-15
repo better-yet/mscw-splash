@@ -25,7 +25,7 @@ $links = array(
 		<div class="container">
 			<div class="row" id="logo">
 				<div class="col-md-12">
-					<h1>Maine Startup & Create Week</h1>
+					<a href="<?php echo $links['tickets']?>" target="_blank"><h1>Maine Startup & Create Week</h1></a>
 				</div>
 			</div>
 			<div class="row">
@@ -66,10 +66,10 @@ $links = array(
 						<span>Portland, ME</span>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-8 social">
-						<a href="<?php echo $links['subscribe']?>" class="fa fa-envelope"></a>
-						<a href="<?php echo $links['facebook']?>" class="fa fa-facebook"></a>
-						<a href="<?php echo $links['twitter']?>" class="fa fa-twitter"></a>
-						<a href="<?php echo $links['youtube']?>" class="fa fa-youtube-play"></a>
+						<a href="<?php echo $links['subscribe']?>" target="_blank" class="fa fa-envelope"></a>
+						<a href="<?php echo $links['facebook']?>" target="_blank" class="fa fa-facebook"></a>
+						<a href="<?php echo $links['twitter']?>" target="_blank" class="fa fa-twitter"></a>
+						<a href="<?php echo $links['youtube']?>" target="_blank" class="fa fa-youtube-play"></a>
 						<a href="<?php echo $links['email']?>" class="fa fa-question-circle"></a>
 					</div>
 				</div>
