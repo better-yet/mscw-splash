@@ -29,7 +29,7 @@ $links = array(
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
+				<div class="col-md-offset-2 col-lg-8 col-md-9">
 					<div class="keynote">
 						<img src="/assets/img/marvin-ammori-cropped.jpg" width="1333" height="1333" class="img-responsive">
 						<div class="bio">
@@ -43,7 +43,7 @@ $links = array(
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-offset-2 col-md-8 tagline">
+				<div class="col-md-offset-2 col-lg-8 col-md-9 tagline">
 					<p>Join us to move your business forward, through expert insight, applied skill-building, and meaningful connections.</p>
 				</div>
 			</div>
